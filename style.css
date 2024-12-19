@@ -1,0 +1,137 @@
+/* Hero Section Styles */
+/* .hero-section {
+    position: relative;
+    height: 500px; 
+   
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    padding: 150px 150px;
+    border-radius: 10px;
+  } */
+
+  
+  
+  /* Featured Products Section */
+  .container.my-5 h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: #333; /* Adjust text color */
+  }
+  
+  .card {
+    border: none; /* Removes border around cards */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds shadow to cards */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth hover effects */
+  }
+  
+  .card:hover {
+    transform: translateY(-10px); /* Slight lift on hover */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Enhance shadow on hover */
+  }
+  
+  .card img {
+    height: 200px; /* Standardized image size */
+    object-fit: cover; /* Ensures image fits nicely within the card */
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  
+  .card-body {
+    text-align: center; /* Center-align text */
+    padding: 15px;
+  }
+  
+  .card-title {
+    font-size: 1.25rem;
+    margin-bottom: 10px;
+    color: #555; /* Slightly muted text color */
+  }
+  
+  .card-text {
+    font-size: 1rem;
+    margin-bottom: 15px;
+    color: #777; /* Even lighter text color for price */
+  }
+  
+  .btn-outline-primary {
+    border-color: #007bff;
+    color: #007bff;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .btn-outline-primary:hover {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  /* Footer */
+  footer h3 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+  }
+  
+  footer ul {
+    padding: 0;
+    list-style-type: none;
+  }
+  
+  footer ul li {
+    margin-bottom: 10px;
+  }
+  
+  footer ul li a:hover {
+    color: #f8c146; /* Highlight color for links */
+    text-decoration: none;
+  }
+  
+  footer p {
+    font-size: 0.9rem;
+  }
+  
+  footer .list-inline-item a {
+    font-size: 0.85rem;
+  }
+  
+  /* Hero Section with Background Image */
+  .hero-background {
+    height: 400px; /* Adjust height as needed */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  /* Carousel Overlay Content */
+  .carousel-caption {
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .carousel-caption h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .carousel-caption p {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .carousel-caption a {
+    font-size: 1.1rem;
+  }
+  
+  /* Optional Carousel Indicators */
+  .carousel-indicators button {
+    background-color: #fff;
+  }
+  
+  /* Optional Controls */
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    filter: invert(100%);
+  }
+  

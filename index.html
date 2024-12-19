@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Glowify by Rabia - Home</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="#">Glowify by Rabia</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="products.html">Products</a></li>
+          <li class="nav-item"><a class="nav-link" href="cart.html">Cart</a></li>
+          <li class="nav-item"><a class="nav-link" href="login.html">Login</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <!-- <div class="container-fluid text-center my-5 hero-section">
+    <h1>Welcome to Glowify by Rabia</h1>
+    <p>Your one-stop shop for premium skin and hair care products.</p>
+    <a href="products.html" class="btn btn-primary">Shop Now</a>
+  </div> -->
+
+  <div id="heroSectionCarousel" class="carousel slide hero-section text-center my-5" data-bs-ride="carousel">
+    <!-- Carousel Indicators -->
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#heroSectionCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#heroSectionCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    </div>
+  
+    <!-- Carousel Items -->
+    <div class="carousel-inner">
+      <div class="carousel-item active hero-background" style="background-image: url('bn_pic.jpg');"></div>
+      <div class="carousel-item hero-background" style="background-image: url('bnn_pic.png');"></div>
+    </div>
+  
+    <!-- Navigation Controls -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#heroSectionCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#heroSectionCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  
+    <!-- Overlay Content -->
+    <div class="carousel-caption d-flex flex-column align-items-center justify-content-center text-white">
+      <h1>Welcome to Glowify by Rabia</h1>
+      <p>Your one-stop shop for premium skin and hair care products.</p>
+      <a href="products.html" class="btn btn-primary">Shop Now</a>
+    </div>
+  </div>
+  
+
+  <!-- Featured Products -->
+  <div class="container my-5">
+    <h2 class="text-center">Featured Products</h2>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card">
+          <img src="hand&foot.png" class="card-img-top" alt="Product 1">
+          <div class="card-body">
+            <h5 class="card-title">Hand and Foot Cream</h5>
+            <p class="card-text">Rs. 400</p>
+            <a href="product-details.html" class="btn btn-outline-primary">View Details</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="Whitening_cream.png" class="card-img-top" alt="Product 2">
+          <div class="card-body">
+            <h5 class="card-title">Whitening Cream</h5>
+            <p class="card-text">Rs. 400</p>
+            <a href="product-details.html" class="btn btn-outline-primary">View Details</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="card">
+          <img src="hair spray.png" class="card-img-top" alt="Product 3">
+          <div class="card-body">
+            <h5 class="card-title">Hair Spray</h5>
+            <p class="card-text">Rs. 200</p>
+            <a href="product-details.html" class="btn btn-outline-primary">View Details</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <!-- <footer class="bg-dark text-white text-center py-3">
+    <p>&copy; 2024 Glowify by Rabia. All Rights Reserved.</p>
+  </footer> -->
+
+  <!-- Footer Section -->
+<footer class="bg-dark text-white py-5">
+  <div class="container">
+    <div class="row">
+      <!-- About the Store -->
+      <div class="col-md-4 mb-4">
+        <h3>About the Store</h3>
+        <p>
+          Glowify's standout feature is its lightweight formula, absorbing quickly without feeling greasy. Infused with vitamins and antioxidants, it improves skin texture and tone, ideal for daily use.
+        </p>
+      </div>
+
+      <!-- Follow Us -->
+      <div class="col-md-3 offset-md-1 mb-4">
+        <h3>Follow Us</h3>
+        <ul class="list-unstyled">
+          <li>
+            <a href="https://www.instagram.com/glowify_by_rabia/profilecard/?igsh=aGc1dTc3eHJxNW9t" class="text-white" target="_blank">
+              <i class="bx bxl-instagram"></i> Instagram
+            </a>
+          </li>
+          <li>
+            <a href="https://www.facebook.com/beautify.by.r.k?mibextid=ZbWKwL" class="text-white" target="_blank">
+              <i class="bx bxl-facebook-square"></i> Facebook
+            </a>
+          </li>
+          <li>
+            <a href="https://youtube.com/@riyasstore?si=qj0qE-eOkTTOHrnN" class="text-white" target="_blank">
+              <i class="bx bxl-youtube"></i> YouTube
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Contact Us -->
+      <div class="col-md-3 offset-md-1 mb-4">
+        <h3>Contact Us</h3>
+        <p>Email: <a href="mailto:rabia.kanwal730@gmail.com" class="text-white">rabia.kanwal730@gmail.com</a></p>
+        <p>Phone: <a href="tel:+923084488229" class="text-white">+92 3084488229</a></p>
+        <p>Address: 123 Beauty Street, Glamour City</p>
+      </div>
+    </div>
+
+    <!-- Footer Links and Copyright -->
+    <div class="text-center mt-4">
+      <p class="mb-2">&copy; 2024 Glowify By Rabia. All rights reserved.</p>
+      <ul class="list-inline">
+        <li class="list-inline-item">
+          <a href="#" class="text-white">Delivery Information</a>
+        </li>
+        <li class="list-inline-item">|</li>
+        <li class="list-inline-item">
+          <a href="#" class="text-white">Privacy Policy</a>
+        </li>
+        <li class="list-inline-item">|</li>
+        <li class="list-inline-item">
+          <a href="#" class="text-white">Terms of Sale</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
